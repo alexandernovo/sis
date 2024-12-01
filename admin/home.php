@@ -1,4 +1,4 @@
-<h1>Welcome to <?php echo $_settings->info('name') ?> - Admin Panel</h1>
+<h1 class="text-white">Welcome to <?php echo $_settings->info('name') ?> - Admin Panel</h1>
 <hr class="border-purple">
 <style>
     #website-cover{

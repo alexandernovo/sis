@@ -12,9 +12,10 @@
       width:calc(100%) !important;
     }
     body{
-      background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
+      /* background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
       background-size:cover;
-      background-repeat:no-repeat;
+      background-repeat:no-repeat; */
+      background-color: rgb(0,191,99);
     }
     .login-title{
       text-shadow: 2px 2px black
